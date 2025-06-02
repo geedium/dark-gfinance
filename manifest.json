@@ -3,22 +3,22 @@
   "manifest_version": 2,
   "name": "Dark Mode for Google Finance on Firefox",
   "version": "1.0",
+  "icons": {
+    "64": "icons/icon-48.png"
+  },
   "homepage_url": "https://github.com/geedium/dark-gfinance",
   "content_scripts": [
     {
-      "matches": [
-        "*://www.google.com/finance*"
-      ],
-      "css": [
-        "dark-mode.css"
-      ],
-      "js": [
-        "replace-svg.js"
-      ],
+      "matches": ["*://www.google.com/finance*"],
+      "css": ["dark-mode.css"],
+      "js": ["app.js"],
       "run_at": "document_start"
     }
   ],
-  "web_accessible_resources": [
-    "img/landingpage4.svg"
-  ]
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "gediminas.dausynas@gmail.com"
+    }
+  },
+  "web_accessible_resources": ["img/landingpage4.svg"]
 }
