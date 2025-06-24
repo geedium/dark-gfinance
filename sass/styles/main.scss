@@ -1,0 +1,176 @@
+@use "variables" as vars;
+@use "normalize";
+@use "search";
+@use "footer";
+
+:root {
+  --darkg-bg: #121619;
+  --darkg-header-bg: #2c3338;
+  --darkg-secondary-bg: #1e2428;
+  --darkg-accent: #4f8fb0;
+  --darkg-accent-hover: #63a4c6;
+  --darkg-accent-border: #3a4147;
+  --darkg-text-primary: #d1d5db;
+  --darkg-text-secondary: #9ca3af;
+  --darkg-success: #4da17b;
+  --darkg-danger: #b74d4d;
+  --darkg-icon-primary: #d1d5db;
+  --boq-chrometransition-background: vars.$bg_primary;
+}
+
+c-wiz[data-p] {
+  background-color: var(--darkg-bg) !important;
+}
+
+.PxxJne,
+.gyFHrc {
+  color: var(--darkg-text-primary) !important;
+}
+main,
+[role="main"] {
+  background-color: var(--darkg-bg) !important;
+  color: var(--darkg-text-primary) !important;
+}
+/* Header AppBar */
+header#gb {
+  background-color: var(--darkg-header-bg) !important;
+  color: var(--darkg-primary-text) !important;
+}
+
+// Stock page bg container corners
+.yd8gve {
+  background: var(--darkg-bg) !important;
+}
+
+// Market Cards
+.vReuC {
+  border: 1px solid var(--darkg-accent-border) !important;
+  background-color: var(--darkg-bg) !important;
+}
+.pKBk1e,
+.YMlKec {
+  color: var(--darkg-text-primary) !important;
+}
+
+// Texts normalization
+#smart-watchlist-title,
+.Ej6xqf,
+.XNdmd,
+.Q8lakc,
+.Yfwt5,
+.ims1Qe,
+.CrPloe,
+.T35sFe,
+.NTyFPb,
+.S4qG1c,
+.lzO0Ed,
+.sZflkf,
+.ks7jM,
+.pxFzCf,
+.RwFyvf,
+.TwnKPb,
+.Iap8Fc,
+.qNqwJf,
+.fbt0Xc,
+.XDfclc,
+.IifuId,
+.JY7auc,
+.vkk5M,
+.qIEjSe,
+.P6K39c span {
+  color: var(--darkg-text-primary) !important;
+}
+
+li.Zcuy2 {
+  &:hover {
+    background: vars.$darkg_secondary_bg !important;
+  }
+}
+
+// Drawer
+gm-raised-drawer > *:first-child[aria-label="navigational drawer"]  {
+  background-color: vars.$bg_primary !important;
+}
+
+// Top movers list
+section[aria-labelledby="todays-tickers-heading"] {
+  #todays-tickers-heading {
+    color: var(--darkg-text-primary) !important;
+  }
+}
+
+.SxcTic {
+  border-top: 1px solid var(--darkg-accent-border) !important;
+  &:hover {
+    background: vars.$darkg_secondary_bg !important;
+  }
+}
+
+// Lighten texts
+.kBIsJb {
+  color: var(--darkg-text-secondary) !important;
+}
+
+// Borders
+// (home; top-right card; "your portfolios")
+.zdkILe {
+  background-color: var(--darkg-accent-border) !important;
+}
+// (home; top-right cards)
+.q0mqEc, .sO6IOb, .NstWLb, .GCviOb {
+  border: 1px solid var(--darkg-accent-border) !important;
+}
+// (home; left-todays-financial-news)
+.yY3Lee {
+  border-top: 1px solid var(--darkg-accent-border) !important;
+}
+
+// Chips
+.stxVfe .GqNdIe {
+  color:  var(--darkg-text-primary) !important;
+  border: 1px solid var(--darkg-accent-border) !important;
+}
+
+// Watchlist, lists buttons
+.Usd1Ac {
+  border: 1px solid var(--darkg-accent-border) !important;
+  background-color: var(--darkg-bg) !important;
+}
+
+/* Logo text */
+.gb_5d .gb_ud {
+  color: var(--darkg-primary-text) !important;
+}
+.gb_5d:focus .gb_ud {
+  color: var(--darkg-primary-text) !important;
+}
+
+/* Dropdown - Market heading */
+div[aria-labelledby="market-rundown-heading"]
+  > div:nth-of-type(2)     /* the second child div */
+  > div
+  > div
+  > div:first-child {
+  background: var(--darkg-secondary-bg) !important;
+  color: var(--darkg-text-primary) !important;
+}
+
+/* Market chips */
+.AHyjFe {
+  color: var(--darkg-primary-text) !important;
+}
+
+.ccEnac {
+  background: var(--darkg-bg) !important;
+}
+
+.htyage,
+.BqbP5c,
+.KdK6Xc,
+.fW22Te {
+  background: var(--darkg-secondary-bg) !important;
+}
+
+.j0CqVc {
+  color: var(--darkg-text-secondary) !important;
+}

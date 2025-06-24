@@ -1,0 +1,29 @@
+@use "variables" as vars;
+
+.mLoZRc {
+  background: vars.$darkg_secondary_bg;
+}
+
+div [data-left-icon="true"] > div {
+  background: var(--darkg-header-bg) !important;
+}
+
+div [data-left-icon="true"] > svg {
+  fill: var(--darkg-icon-primary) !important;
+}
+
+div [data-left-icon="true"] .onRPD {
+  border-bottom: 1px solid var(--darkg-accent-border) !important;
+}
+
+div [data-left-icon="true"] .onRPD:hover,
+.SAq8ff[aria-selected="true"] {
+  background: var(--darkg-bg) !important;
+}
+
+form.gb_jd {
+  background: vars.$darkg_secondary_bg !important;
+}
+.VOEIyf .jBmls {
+  background-color: vars.$darkg_secondary_bg !important;
+}

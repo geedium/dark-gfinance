@@ -1,0 +1,11 @@
+html,
+body {
+  background-color: var(--darkg-bg) !important;
+  color: var(--darkg-text-primary) !important;
+}
+
+input,
+input::placeholder {
+  color: var(--darkg-text-primary) !important;
+  -webkit-text-fill-color: var(--darkg-text-primary) !important;
+}

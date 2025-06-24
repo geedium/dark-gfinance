@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "sass --style=compressed styles/main.scss | postcss -o ../dark-mode.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "postcss-cli": "^11.0.1",
+    "sass": "^1.89.1"
+  }
+}
