@@ -21,9 +21,13 @@ div [data-left-icon="true"] .onRPD:hover,
   background: var(--darkg-bg) !important;
 }
 
-form.gb_jd {
-  background: vars.$darkg_secondary_bg !important;
+form {
+  &.gb_jd,
+  &.gb_Dd[role="search"] {
+    background: vars.$darkg_secondary_bg !important;
+  }
 }
+
 .VOEIyf .jBmls {
   background-color: vars.$darkg_secondary_bg !important;
 }

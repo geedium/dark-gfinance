@@ -31,6 +31,12 @@ main,
   background-color: var(--darkg-bg) !important;
   color: var(--darkg-text-primary) !important;
 }
+.mfs7Fc, .P6K39c, .c85eIb, .dElyGb, .NJbevc, .ushogf, .yV3rjd {
+  color: var(--darkg-text-primary) !important;
+}
+td, td > * {
+  color: var(--darkg-text-primary) !important;
+}
 /* Header AppBar */
 header#gb {
   background-color: var(--darkg-header-bg) !important;
@@ -81,7 +87,25 @@ header#gb {
   color: var(--darkg-text-primary) !important;
 }
 
+// Porfolio inside,
+// Header Search item
+#nngdp60[aria-selected="true"] {
+  background: var(--darkg-bg) !important;
+}
+
 li.Zcuy2 {
+  &:hover {
+    background: vars.$darkg_secondary_bg !important;
+  }
+}
+
+.NaLFgc {
+  &:hover {
+    background: vars.$darkg_secondary_bg !important;
+  }
+}
+
+.fgdCnd {
   &:hover {
     background: vars.$darkg_secondary_bg !important;
   }
@@ -110,6 +134,18 @@ section[aria-labelledby="todays-tickers-heading"] {
 .kBIsJb {
   color: var(--darkg-text-secondary) !important;
 }
+#discover-more-heading {
+  color: var(--darkg-text-secondary) !important;
+}
+.RCcRmb[role="heading"] {
+  color: var(--darkg-text-secondary) !important;
+}
+.XpM3J {
+  color: var(--darkg-text-secondary) !important;
+}
+.gb_Ha svg, .gb_4c svg, .gb_pd .gb_Od, .gb_gd .gb_Od {
+  color: var(--darkg-text-secondary) !important;
+}
 
 // Borders
 // (home; top-right card; "your portfolios")
@@ -125,10 +161,58 @@ section[aria-labelledby="todays-tickers-heading"] {
   border-top: 1px solid var(--darkg-accent-border) !important;
 }
 
+.H7jbyb {
+  border-top: 1px solid var(--darkg-accent-border) !important;
+}
+.mzGk7d {
+  border-top: 1px solid var(--darkg-accent-border) !important;
+}
+.QE2JIe, .kQQz8e, .Rj2Mlf, .fgdCnd {
+  border-color: var(--darkg-accent-border) !important;
+}
+
+// Portfolio (items)
+.AyIYI {
+  &:hover, &:focus {
+    background: vars.$darkg_secondary_bg !important;
+  }
+}
+
+// Sidebar navigation
+.lv9JE:not(.AJlFKc) {
+  color: var(--darkg-text-primary) !important;
+  &:hover {
+    background: vars.$darkg_secondary_bg !important;
+  }
+}
+.Wa7qeb {
+  color: var(--darkg-text-primary) !important;
+}
+
+// Header 
+// search list box (items + selection)
+.onRPD {
+  border-bottom: 1px solid var(--darkg-accent-border) !important;
+  &:hover {
+     background: var(--darkg-bg) !important;
+  }
+}
+.gb_Me[role="button"] {
+  color: var(--darkg-text-primary) !important;
+}
+
+// Inputs
+[data-placeholder] {
+  color: var(--darkg-text-primary) !important;
+}
+
 // Chips
-.stxVfe .GqNdIe {
+.stxVfe .GqNdIe, .n4DWob {
   color:  var(--darkg-text-primary) !important;
   border: 1px solid var(--darkg-accent-border) !important;
+}
+.n4DWob {
+  background: #2b2929 !important;
 }
 
 // Watchlist, lists buttons
