@@ -2,6 +2,7 @@
 @use "normalize";
 @use "search";
 @use "footer";
+@use "components";
 
 :root {
   --darkg-bg: #121619;
@@ -256,5 +257,11 @@ div[aria-labelledby="market-rundown-heading"]
 }
 
 .j0CqVc {
-  color: var(--darkg-text-secondary) !important;
+  color: vars.$typography_primary;
+}
+
+/* Gains Up */
+.hrdhqb.Ez2Ioe {
+  background-color: rgb(37, 96, 54);
+  color: rgb(157, 234, 183);
 }

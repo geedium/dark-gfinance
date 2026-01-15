@@ -1,0 +1,8 @@
+@use "../variables" as vars;
+
+.gYooSb.ksBjEc:not(:disabled) {
+    color: vars.$typography_primary;
+    &:hover {
+        background: vars.$chip_hover;
+    }
+}

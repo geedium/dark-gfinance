@@ -1,0 +1,36 @@
+@use "../variables" as vars;
+
+/* Active Tab */
+.GqNdIe-YySNWc {
+    background: vars.$chip_active;
+
+    &:hover {
+        background: vars.$chip_hover;
+    }
+}
+
+/* Tab */
+.vdK5ke .GqNdIe:not(.GqNdIe-YySNWc) {
+    color: vars.$typography_primary;
+}
+.GqNdIe:not(.GqNdIe-YySNWc) {
+    &:focus, &:hover {
+        background: vars.$chip_hover;
+    }
+}
+
+/* Compare Markets */
+.AHyjFe:hover {
+    background: vars.$chip_hover;
+}
+
+/* Other */
+.wxtCmb {
+    border: 1px solid vars.$border;
+    &:hover {
+        background: vars.$chip_hover;
+    }
+    span {
+        color: vars.$typography_primary;   
+    }
+}

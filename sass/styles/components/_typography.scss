@@ -1,0 +1,76 @@
+@use "../variables" as vars;
+
+/* 
+ * /finance/portfolio/:uuid
+ * → Portfolio highlights
+ * → Holdings labels (e.g., Stocks, ETFs)
+ */
+span.lqzZ2b {
+    color: vars.$typography_secondary;
+}
+
+/*
+ * /finance/portfolio/:uuid
+ * → Visualize
+ * → Your investments visualized label
+ */
+div.HGBMVd {
+    color: vars.$typography_primary;
+}
+/* Caption */
+div.OT2Tr {
+    color: vars.$typography_secondary;
+}
+
+/*
+ * /finance/portfolio/watchlist
+ * → Create a portfolio alert message
+ */
+.v2aRuf {
+    color: vars.$typography_secondary;
+}
+
+.mRjSYb {
+    color: vars.$typography_primary;
+}
+
+/* Set */
+.YrG3Pd,
+.m6ESCb,
+.Mrksgc,
+.W8knGc,
+.MzhJl,
+.ygUjEc,
+.lUuFj {
+    color: vars.$typography_secondary;
+}
+
+/* Charts */
+.pFZ9G {
+    text-shadow: none;
+}
+
+p[class^="hSGhwc-"],
+p[class*="hSGhwc-"] {
+    color: #242424;
+}
+
+[class^="VfPpkd-"],
+[class*=" VfPpkd-"] {
+    color: vars.$typography_secondary;
+}
+
+.VfPpkd,
+.PdOqHc,
+.KcpzD,
+.OJgpGc {
+    color: vars.$typography_secondary;
+}
+
+.roXhBd>* {
+    color: vars.$typography_secondary;
+}
+
+svg text {
+    color: vars.$typography_primary;
+}

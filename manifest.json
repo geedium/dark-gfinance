@@ -9,9 +9,15 @@
   "homepage_url": "https://github.com/geedium/dark-gfinance",
   "content_scripts": [
     {
-      "matches": ["*://www.google.com/finance*"],
-      "css": ["dark-mode.css"],
-      "js": ["app.js"],
+      "matches": [
+        "*://www.google.com/finance*"
+      ],
+      "css": [
+        "dark-mode.css"
+      ],
+      "js": [
+        "app.js"
+      ],
       "run_at": "document_start"
     }
   ],
@@ -20,5 +26,8 @@
       "id": "gediminas.dausynas@gmail.com"
     }
   },
-  "web_accessible_resources": ["img/landingpage4.svg"]
+  "web_accessible_resources": [
+    "img/landingpage4.svg",
+    "img/googlelogo_dark_color_74x24dp.png"
+  ]
 }
